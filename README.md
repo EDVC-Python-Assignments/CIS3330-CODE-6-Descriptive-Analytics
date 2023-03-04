@@ -26,8 +26,7 @@ In this CODE assignment, you will begin your business analytics training. This C
   * A boxplot can be created on a Pandas DataFrame or Series using the function `boxplot`. See the following example:
     + `df_country.boxplot(column='local_price')` creates a boxplot for the column local_price.
     + `df_country.boxplot(column='local_price', by='name')`creates a boxplot for the column local_price by the country names
-    + **Important** you need to import `import matplotlib.pyplot as plt` and execute the statement `plt.show()` to show your visualization.
    * A scatter plot can be created on a Pandas DataFrame or Series using the function `plot.scatter`. See the following example:
     + `plot.scatter(x='x_variable',y='y_variable')` creates a scatter plot for the given variables.
-    + **Important** you need to import `import matplotlib.pyplot as plt` and execute the statement `plt.show()` to show your visualization.
+   * **Important** you need to import `import matplotlib.pyplot as plt` and execute the statement `plt.show()` to show your visualization.
  
