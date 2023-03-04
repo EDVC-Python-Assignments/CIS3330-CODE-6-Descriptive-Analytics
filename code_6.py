@@ -4,7 +4,7 @@ filename = "big-mac-full-index.csv"
 def get_describe_country(country_code):
     pass
 
-def get_country_groupby_country(country_code):
+def get_country_groupby_year(country_code):
     pass
 
 
