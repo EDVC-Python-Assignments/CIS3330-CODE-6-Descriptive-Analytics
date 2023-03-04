@@ -9,7 +9,7 @@ In this CODE assignment, you will begin your business analytics training. This C
       * The function receives a country code and calculates descriptive statistics for the country's data.
       * The function returns the descriptive statistics for the country.
     + `get_country_groupby_year`
-      * The function receives a country code and calculates a report (e.g., descriptive statistics) that are aggregated by year
+      * The function receives a country code and calculates a report (e.g., descriptive statistics) that is aggregated by year
       * The function returns the report by year.
     + This part of the assignment will have automated grading on GitHub Classrooms.
 2. Report on descriptive analytics that compares the big mac prices of five countries.
