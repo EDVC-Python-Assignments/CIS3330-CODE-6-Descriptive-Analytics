@@ -18,3 +18,16 @@ In this CODE assignment, you will begin your business analytics training. This C
   + Include all the programming code for this part of the assignment inside the `if __name__ == "__main__":` statement.
   + Create a report in Word or Jupyter notebooks.
   + Upload your report to both this code repository and to Blackboard.
+
+  ## Useful Python statements
+
+  * Describe function in python produces descriptive statistics. To use (call) it you need to execute `df.describe`. 
+    + Note that **'df'** is a generic DataFrame used in this example and that the describe function can also be used on a `Pandas.Series` data structure.
+  * A boxplot can be created on a Pandas DataFrame or Series using the function `boxplot`. See the following example:
+    + `df_country.boxplot(column='local_price')` creates a boxplot for the column local_price.
+    + `df_country.boxplot(column='local_price', by='name')`creates a boxplot for the column local_price by the country names
+    + **Important** you need to import `import matplotlib.pyplot as plt` and execute the statement `plt.show()` to show your visualization.
+   * A scatter plot can be created on a Pandas DataFrame or Series using the function `plot.scatter`. See the following example:
+    + `plot.scatter(x='x_variable',y='y_variable')` creates a scatter plot for the given variables.
+    + **Important** you need to import `import matplotlib.pyplot as plt` and execute the statement `plt.show()` to show your visualization.
+ 
